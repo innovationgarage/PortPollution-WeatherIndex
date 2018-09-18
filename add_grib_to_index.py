@@ -7,6 +7,11 @@ import numpy as np
 import json
 
 """
+create table gridareas (
+    the_geom public.geometry(Geometry,4326),
+    projparams text,
+    gridid character varying primary key
+);
 create table gribfiles (
  file varchar primary key
 );
