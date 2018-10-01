@@ -12,7 +12,6 @@ RUN pip3 install pygrib==2.0.2
 RUN pip3 install shapely
 RUN pip3 install psycopg2
 
-ADD add_grib_to_index.py /add_grib_to_index.py
 ADD index.sh /index.sh
 
 
