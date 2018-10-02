@@ -11,6 +11,7 @@ RUN pip3 install pyproj
 RUN pip3 install pygrib==2.0.2
 RUN pip3 install shapely
 RUN pip3 install psycopg2
+RUN pip3 install gributils
 
 ADD index.sh /index.sh
 
