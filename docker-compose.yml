@@ -5,5 +5,8 @@ services:
     environment:
       DATABASE: "${DATABASE}"
       BASEDIR: "/data"
+      LC_ALL: "${LC_ALL}"
+      LANG: "${LANG}"
+
     volumes:
       - /ymslanda/PortPollution/WeatherScrape:/data
